@@ -2,8 +2,7 @@ package com.example.quickescapes.serviceImpl;
 
 import com.example.quickescapes.dao.FlightsQueries;
 import com.example.quickescapes.service.FlightsService;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -26,7 +25,6 @@ public class FlightsServiceImpl implements FlightsService {
     private static final int PAGE_NUMBER_FLIGHTS = 1;
     private static final String NONSTOP = "yes";
     private static final String CURRENCY_CODE = "USD";
-
 
     public String searchFlightsOneWay(FlightsQueries flights) {
         String url = "https://tripadvisor16.p.rapidapi.com/api/v1/flights/searchFlights" +
@@ -61,7 +59,7 @@ public class FlightsServiceImpl implements FlightsService {
     }
 
     public String searchFlightsRoundTrip(FlightsQueries flights) {
-            String url = "https://tripadvisor16.p.rapidapi.com`/api/v1/flights/searchFlights" +
+            String url = "https://tripadvisor16.p.rapidapi.com/api/v1/flights/searchFlights" +
                     "?sourceAirportCode=" + flights.getSourceAirportCode() +
                     "&destinationAirportCode=" + flights.getDestinationAirportCode() +
                     "&date=" + flights.getDate() +
@@ -94,7 +92,7 @@ public class FlightsServiceImpl implements FlightsService {
     }
 
     public String searchAirport(String airportCode) {
-        String url = "https://tripadvisor16.p.rapidapi.com`/api/v1/flights/searchAirport" +
+        String url = "https://tripadvisor16.p.rapidapi.com/api/v1/flights/searchAirport" +
                 "?query=" + airportCode;
 
         HttpRequest request = HttpRequest.newBuilder()
