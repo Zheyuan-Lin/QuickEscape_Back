@@ -5,13 +5,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
 public interface SegmentService {
+    List<Segment> getAllSegments();
 
-    public List<Segment> getAllSegments();
-
-    public Segment getSegmentById(Integer id);
-
-    // Additional methods for saving, updating, and deleting segments
+    Segment getSegmentById(Integer id);
 }
 
