@@ -4,22 +4,23 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example.quickescapes.mappers.HotelMapper">
-    <select id="searchHotels" resultType="com.example.quickescapes.dao.Hotel">
+    <select id="getHotelList" resultType="com.example.quickescapes.dao.Hotel">
         SELECT
-        id AS id,
-        hotel_id AS hotelId,
-        hotel_nm AS hotelNm,
-        ci_date AS ciDate,
-        co_date AS coDate,
-        price AS price,
-        long AS longitude,
-        lat AS latitude,
-        review_score AS reviewScore,
-        review_count AS reviewCount,
-        photo_url AS photoUrl
-        FROM hotels
-        WHERE price &lt;= #{budget}
-        AND ci_date = #{checkIn}
-        AND co_date = #{checkOut}
+        h.city_cd AS destination,
+        h.hotel_nm AS hotel_name,
+        MIN(h.ci_date::TIMESTAMP) AS final_check_in_date, -- Earliest check-in date
+        MAX(h.co_date::TIMESTAMP) AS final_check_out_date, -- Latest check-out date
+        SUM(h.price) AS total_price, -- Total price of stay
+        h.photo_url
+        FROM
+        hotels h
+        WHERE
+        h.ci_date &gt;= #{checkIn} -- Filter for check-in date
+        AND h.co_date &lt;= #{checkOut} -- Filter for check-out date
+        GROUP BY
+        h.hotel_nm, h.city_cd, h.photo_url
+        HAVING
+        SUM(h.price) &lt;= #{budget}; -- Filter for total price after aggregation
+
     </select>
 </mapper>

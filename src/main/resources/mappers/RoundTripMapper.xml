@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.quickescapes.mappers.RoundTripMapper">
+
+    <select id="findRoundTrip" resultType="com.example.quickescapes.dao.RoundTrip">
+        <bind name="budgetLimit" value="budget * 2 / 3" />
+        SELECT
+        out_airport.airport_cd AS cityCode,
+        out_trip.trip_departure_dt::TIMESTAMP AS outbound_departure_date,
+        out_trip.price AS outbound_price,
+        out_segment.airline_cd AS outbound_airline,
+        out_segment.flight_nb AS outbound_flight_number,
+        out_segment.cabin AS outbound_cabin,
+        return_trip.trip_departure_dt::TIMESTAMP AS return_departure_date,
+        return_trip.price AS return_price,
+        (out_trip.price + return_trip.price) AS total_price,
+        return_segment.airline_cd AS return_airline,
+        return_segment.flight_nb AS return_flight_number,
+        return_segment.cabin AS return_cabin
+
+        FROM
+        (SELECT * from trips
+         WHERE split_part(summary, '-', 1) = 'ATL')
+        AS out_trip
+        JOIN
+        slices AS out_slice ON out_trip.trip_id = out_slice.trip_id
+        JOIN
+        segments AS out_segment ON out_slice.slice_id = out_segment.slice_id
+
+        JOIN
+        (SELECT * from trips
+        WHERE split_part(summary, '-', 2) = 'ATL')
+        AS return_trip ON
+        split_part(out_trip.summary, '-', 2) = split_part(return_trip.summary, '-', 1)
+        AND return_trip.trip_departure_dt &gt; out_trip.trip_departure_dt
+        JOIN
+        slices AS return_slice ON return_trip.trip_id = return_slice.trip_id
+        JOIN
+        segments AS return_segment ON return_slice.slice_id = return_segment.slice_id
+        JOIN
+        airports AS out_airport ON out_airport.airport_cd =  split_part(out_trip.summary, '-', 2)
+
+        WHERE
+        (out_trip.price + return_trip.price) &lt;= #{budgetLimit}
+        AND out_trip.trip_departure_dt::TIMESTAMP &gt;= #{arrival}
+        AND return_trip.trip_departure_dt::TIMESTAMP &lt;= #{departure};
+    </select>
+
+</mapper>

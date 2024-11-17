@@ -2,6 +2,7 @@ package com.example.quickescapes.controller;
 import com.example.quickescapes.dao.CityItineraryVO;
 import com.example.quickescapes.dao.Fare;
 import com.example.quickescapes.dao.Hotel;
+import com.example.quickescapes.dao.RoundTrip;
 import com.example.quickescapes.service.FareService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,28 +14,19 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/fares")
-public class FareController {
+@RequestMapping("/oneway")
+public class OnewayController {
     @Autowired
     private FareService fareService;
 
-    @GetMapping("/from-atl")
-    public ResponseEntity<List<Fare>> getFaresFromAtlWithinBudget(@RequestParam BigDecimal budget) {
-        List<Fare> results = fareService.getFaresFromAtlWithinBudget(budget);
+    @GetMapping("/atl")
+    public ResponseEntity<List<RoundTrip>> getFaresFromAtlWithinBudget(@RequestParam LocalDate arrival,
+                                                                       @RequestParam BigDecimal budget) {
+        List<RoundTrip> results = fareService.getOneway(arrival,budget);
         if (results.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
 
         return ResponseEntity.ok(results);
     }
-    @GetMapping("/oneway")
-    public ResponseEntity<List<CityItineraryVO>> getOnewayHotels(@RequestParam LocalDate arrival, @RequestParam BigDecimal budget) {
-        List<CityItineraryVO> results = fareService.getOneItinerary(arrival, budget);
-        if (results.isEmpty()) {
-            return ResponseEntity.noContent().build();
-        }
-
-        return ResponseEntity.ok(results);
-
-}
 }
