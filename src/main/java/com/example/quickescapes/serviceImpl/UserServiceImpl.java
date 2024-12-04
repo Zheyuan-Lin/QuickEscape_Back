@@ -1,34 +1,32 @@
 package com.example.quickescapes.serviceimpl;
 
 import com.example.quickescapes.dao.User;
-import com.example.quickescapes.dao.UserRepository;
+import com.example.quickescapes.mappers.UserMapper;
 import com.example.quickescapes.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Service
 public class UserServiceImpl implements UserService {
 
     @Autowired
-    private UserRepository userRepository;
+    private UserMapper userMapper;
 
-    @Autowired
-    private BCryptPasswordEncoder passwordEncoder;
+    private final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+
+    @Override
+    public User findByUsername(String username){
+        User u = userMapper.findByUsername(username);
+        return u;
+    }
 
     @Override
     public User registerUser(String username, String password) {
-        // Check if username already exists
-        if (userRepository.findByUsername(username) != null) {
-            throw new RuntimeException("Username already exists");
-        }
-    
-        // Hash the password before saving
-        User user = new User();
-        user.setUsername(username);
-        user.setPassword(passwordEncoder.encode(password)); // Encrypt the password
+        // Hash the password using BCrypt
+        String hashedPassword = passwordEncoder.encode(password);
 
-        return userRepository.save(user);
+        userMapper.add(username, hashedPassword);
     }
 
     @Override

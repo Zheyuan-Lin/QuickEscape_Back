@@ -6,11 +6,15 @@ import org.apache.ibatis.annotations.Param;
 
 @Mapper
 public interface UserMapper {
-    void registerUser(@Param("username") String username, 
+    void registerUser(@Param("id") Integer id,
+                      @Param("username") String username, 
                       @Param("password") String password, 
                       @Param("email") String email);
 
     User findUserByUsername(@Param("username") String username);
+
+    void add(@Param("username") String username,
+             @Param("hashedPassword") String hashedPassword);
 
     User authenticateUser(@Param("username") String username, 
                           @Param("password") String password);
