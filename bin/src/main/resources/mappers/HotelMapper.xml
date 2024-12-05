@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.quickescapes.mappers.HotelMapper">
+    <select id="getHotelList" resultType="com.example.quickescapes.dao.Hotel">
+        SELECT
+        id AS id,
+        hotel_id AS hotelId,
+        hotel_nm AS hotelNm,
+        ci_date AS ciDate,
+        co_date AS coDate,
+        price AS price,
+        long AS longitude,
+        lat AS latitude,
+        review_score AS reviewScore,
+        review_count AS reviewCount,
+        photo_url AS photoUrl
+        FROM hotels
+        WHERE price &lt;= #{budget}
+        AND ci_date = #{checkIn}
+        AND co_date = #{checkOut}
+    </select>
+</mapper>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+<h1>Flight Search</h1>
+<form id="flightForm">
+    <label for="sourceAirportCode">Source Airport Code:</label>
+    <input type="text" id="sourceAirportCode" required>
+
+    <label for="destinationAirportCode">Destination Airport Code:</label>
+    <input type="text" id="destinationAirportCode" required>
+
+    <label for="date">Departure Date (YYYY-MM-DD):</label>
+    <input type="date" id="date" required>
+
+    <label for="sortOrder">Sort Order:</label>
+    <select id="sortOrder" required>
+        <option value="ML_BEST_VALUE">ML_BEST_VALUE</option>
+        <option value="DURATION">DURATION</option>
+        <option value="PRICE">PRICE</option>
+    </select>
+
+    <label for="numAdults">Number of Adults:</label>
+    <input type="number" id="numAdults" required min="1" value="1">
+
+    <label for="numSeniors">Number of Seniors:</label>
+    <input type="number" id="numSeniors" min="0" value="0">
+
+    <label for="classOfService">Class of Service:</label>
+    <select id="classOfService" required>
+        <option value="ECONOMY">Economy</option>
+        <option value="BUSINESS">Business</option>
+        <option value="FIRST_CLASS">First Class</option>
+    </select>
+
+    <label for="pageNumber">Page Number:</label>
+    <input type="number" id="pageNumber" value="1">
+
+    <label for="nonstop">Nonstop Flights Only:</label>
+    <select id="nonstop" required>
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+    </select>
+
+    <label for="currencyCode">Currency Code:</label>
+    <input type="text" id="currencyCode" value="USD" required>
+
+    <button type="submit">Search Flights</button>
+</form>
+
+<div id="flightResults"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
