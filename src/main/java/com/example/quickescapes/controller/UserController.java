@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import java.util.*;
+import com.example.quickescapes.util.JwtUtil;
 
 @RestController
 @RequestMapping("/user")
@@ -24,7 +25,7 @@ public class UserController {
             && user.getPassword() != null && user.getPassword().length() <= 16){
             User u = userService.findByUsername(user.getUsername());
             // Check if username already exists
-            if (u = null){
+            if (u == null){
                 userService.registerUser(user.getUsername(), user.getPassword());
                 return ResponseEntity.success("User registered successfully!");
             }else{
@@ -49,7 +50,7 @@ public class UserController {
             claims.put("id", loginUser.getId());
             claims.put("username", loginUser.getUsername()); 
             String token = JwtUtil.genToken(claims); 
-            return ResponseEntity.ok(token);
+            return ResponseEntity.success(token);
         }
 
         return ResponseEntity.error(new ErrorCode(104, "The password is incorrect."));
