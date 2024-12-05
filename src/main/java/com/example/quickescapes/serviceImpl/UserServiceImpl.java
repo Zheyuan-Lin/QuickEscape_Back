@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findByUsername(String username){
-        User u = userMapper.findUserByUsername(username);
+        User u = userMapper.findByUsername(username);
         return u;
     }
 
@@ -27,12 +27,11 @@ public class UserServiceImpl implements UserService {
         String hashedPassword = passwordEncoder.encode(password);
 
         userMapper.add(username, hashedPassword);
-        return userMapper.findUserByUsername(username);
     }
 
     @Override
     public User loginUser(String username, String password) {
-        User user = userMapper.findUserByUsername(username);
+        User user = userRepository.findByUsername(username);
         if (user == null || !passwordEncoder.matches(password, user.getPassword())) {
             throw new RuntimeException("Invalid username or password");
         }

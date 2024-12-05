@@ -13,10 +13,10 @@
     <!-- Query to find a user by username -->
     <select id="findUserByUsername" resultType="com.example.quickescapes.dao.User">
         SELECT
-            id,
-            username,
-            password,
-            email
+        id,
+        username,
+        password,
+        email
         FROM users
         WHERE username = #{username};
     </select>
@@ -30,13 +30,15 @@
     <!-- Query to authenticate a user by username and password -->
     <select id="authenticateUser" resultType="com.example.quickescapes.dao.User">
         SELECT
-            id,
-            username,
-            password,
-            email
+        id,
+        username,
+        password,
+        email
         FROM users
         WHERE username = #{username}
-          AND password = #{password};
+        AND password = #{password};
     </select>
 
 </mapper>
+
+

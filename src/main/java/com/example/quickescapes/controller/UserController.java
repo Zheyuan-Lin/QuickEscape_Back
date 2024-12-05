@@ -3,13 +3,11 @@ package com.example.quickescapes.controller;
 import com.example.quickescapes.dao.User;
 import com.example.quickescapes.service.UserService;
 import com.example.quickescapes.util.Exception.ErrorCode;
-import com.example.quickescapes.util.JwtUtil;
 import com.example.quickescapes.util.ResponseEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import java.util.*;
-
 
 @RestController
 @RequestMapping("/user")
@@ -22,11 +20,11 @@ public class UserController {
 
     @PostMapping("/register")
     public ResponseEntity<String> registerUser(@RequestBody User user) {
-        if (user.getUsername() != null && user.getUsername().length() <= 16
-                && user.getPassword() != null && user.getPassword().length() <= 16){
+        if (user.getUsername() != null && user.getUsername().length() <= 16 
+            && user.getPassword() != null && user.getPassword().length() <= 16){
             User u = userService.findByUsername(user.getUsername());
             // Check if username already exists
-            if (u == null){
+            if (u = null){
                 userService.registerUser(user.getUsername(), user.getPassword());
                 return ResponseEntity.success("User registered successfully!");
             }else{
@@ -46,14 +44,14 @@ public class UserController {
         }
 
         // Check if the password is correct
-        if (passwordEncoder.matches(user.getPassword(), loginUser.getPassword())){
-            Map<String, Object> claims = new HashMap<>();
+        if (!passwordEncoder.matches(user.getPassword(), loginUser.getPassword())){
+            Map<String, Object> claims = new HashMap<>(); 
             claims.put("id", loginUser.getId());
-            claims.put("username", loginUser.getUsername());
-            String token = JwtUtil.genToken(claims);
-            return ResponseEntity.success(token);
+            claims.put("username", loginUser.getUsername()); 
+            String token = JwtUtil.genToken(claims); 
+            return ResponseEntity.ok(token);
         }
 
         return ResponseEntity.error(new ErrorCode(104, "The password is incorrect."));
-    }
+        }
 }
