@@ -12,5 +12,6 @@ import java.util.List;
 public interface HotelMapper {
     List<Hotel> getHotelList(@Param("budget") BigDecimal budget,
                              @Param("checkIn")LocalDate checkIn,
-                             @Param("checkOut")LocalDate checkOut);
+                             @Param("checkOut")LocalDate checkOut,
+                             @Param("attribute")String attribute);
 }

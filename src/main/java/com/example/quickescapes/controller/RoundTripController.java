@@ -23,8 +23,9 @@ public class RoundTripController {
     @GetMapping("/find")
     public ResponseEntity<List<RoundTrip>> findRoundTrip(@RequestParam("arrival") LocalDate arrival,
                                                          @RequestParam("departure") LocalDate departure,
-                                                         @RequestParam("budget") BigDecimal budget) {
-        List<RoundTrip> results = service.findRoundTrip(arrival, departure, budget);
+                                                         @RequestParam("budget") BigDecimal budget,
+                                                         @RequestParam("attribute") String attribute) {
+        List<RoundTrip> results = service.findRoundTrip(arrival, departure, budget, attribute);
         if (results.isEmpty()) {
             ErrorCode error = new ErrorCode(100,"No RoundTrip");
             return ResponseEntity.error(error);

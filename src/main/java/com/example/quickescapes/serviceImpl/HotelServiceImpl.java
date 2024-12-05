@@ -15,7 +15,7 @@ public class HotelServiceImpl implements HotelsService {
     @Autowired
     HotelMapper mapper;
     @Override
-    public List<Hotel> searchHotels(BigDecimal budget, LocalDate checkIn, LocalDate checkOut) {
-        return mapper.getHotelList(budget, checkIn, checkOut);
+    public List<Hotel> searchHotels(BigDecimal budget, LocalDate checkIn, LocalDate checkOut, String attribute) {
+        return mapper.getHotelList(budget, checkIn, checkOut, attribute);
     }
 }

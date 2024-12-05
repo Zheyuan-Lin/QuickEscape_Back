@@ -25,8 +25,9 @@ public class ItineraryController {
         @RequestMapping("/find")
         public ResponseEntity<List<CityItineraryVO>> findRoundTrip(@RequestParam LocalDate arrival,
                                                              @RequestParam LocalDate departure,
-                                                             @RequestParam BigDecimal budget) {
-            List<CityItineraryVO> results =  service.findItinerary(arrival, departure, budget);
+                                                             @RequestParam BigDecimal budget,
+                                                                   @RequestParam String attribute) {
+            List<CityItineraryVO> results =  service.findItinerary(arrival, departure, budget, attribute);
             if (results.isEmpty()) {
                 ErrorCode error = new ErrorCode(100,"No Itinerary");
                 return com.example.quickescapes.util.ResponseEntity.error(error);

@@ -38,12 +38,10 @@ public class FareServiceImpl implements FareService {
         trip.setCityCode(itinerary.getCityCode());
         trip.setOutboundDepartureDate(itinerary.getOutboundDepartureDate());
         trip.setOutboundPrice(itinerary.getOutboundPrice());
-        trip.setOutboundAirline(itinerary.getOutboundAirline());
-        trip.setOutboundFlightNumber(itinerary.getOutboundFlightNumber());
+        trip.setOutboundFlightNumbers(itinerary.getOutboundFlightNumber());
         trip.setReturnDepartureDate(itinerary.getReturnDepartureDate());
         trip.setReturnPrice(itinerary.getReturnPrice());
-        trip.setReturnAirline(itinerary.getReturnAirline());
-        trip.setReturnFlightNumber(itinerary.getReturnFlightNumber());
+        trip.setReturnFlightNumbers(itinerary.getReturnFlightNumber());
         trip.setFlightTotalPrice(itinerary.getFlightTotalPrice());
         return trip;
     }

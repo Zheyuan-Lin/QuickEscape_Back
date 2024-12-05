@@ -13,14 +13,12 @@ public class RoundTrip {
     private String cityCode;
     private LocalDateTime outboundDepartureDate;
     private BigDecimal outboundPrice;
-    private String outboundAirline;
-    private String outboundFlightNumber;
+    private String outboundFlightNumbers;
     private String outboundCabin;
 
     private LocalDateTime returnDepartureDate;
     private BigDecimal returnPrice;
-    private String returnAirline;
-    private String returnFlightNumber;
+    private String returnFlightNumbers;
     private String returnCabin;
 
     private BigDecimal flightTotalPrice;
