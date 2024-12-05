@@ -1,0 +1,410 @@
+airport_cd,airport_nm,geo_level_2,geo_level_1
+ABQ,Albuquerque International Sunport,,NM
+ACY,Atlantic City International,,NJ
+ADD,Addis Ababa Bole International,,Ethiopia
+AKN,King Salmon,,AK
+ALC,Alicante,,Spain
+AMS,Amsterdam Schiphol Airport,,Netherlands
+ANC,Anchorage Ted Stevens International,,AK
+AOI,Ancona Falconara,,Italy
+ATH,Athens Eleftherios Venizelos,,Greece
+ATL,Atlanta Hartsfield-Jackson International,,GA
+AUA,Aruba Reina Beatrix,,Aruba
+AUH,Abu Dhabi Zayed International,,United Arab Emirates
+AUS,Austin-Bergstrom International,,TX
+AVT,Miami Aventura Brightline,,FL
+AYT,Antalya,,Turkey
+BCN,Barcelona,,Spain
+BDL,Hartford Bradley International,,CT
+BER,Berlin Brandenburg,,Germany
+BFI,Seattle Boeing Fld-King Co International,,WA
+BHX,Birmingham,,United Kingdom
+BJC,Denver Rocky Mountain Metrop.,,CO
+BKK,Bangkok Suvarnabhumi International,,Thailand
+BKL,Cleveland Burke Lakefront,,OH
+BLD,Las Vegas Boulder City Municipal,,NV
+BNA,Nashville International,,TN
+BON,Bonaire Flamingo International,Bonaire,Saint Eustatius and Saba
+BOS,Boston Edward L. Logan International,,MA
+BRU,Brussels Airport,,Belgium
+BSA,Bosaso International,,Somalia
+BUD,Budapest Liszt Ferenc International,,Hungary
+BUF,Buffalo Niagara International,,NY
+BUR,Burbank Bob Hope,,CA
+BWI,Baltimore Washington Int'l,,MD
+BYO,Bonito,,Brazil
+BZE,Belize City Philip S.W.Goldson International,,Belize
+Bob,Noorvik R. (Bob) Curtis Memorial,,
+CAI,Cairo International,,Egypt
+CAN,Guangzhou Baiyun International,,China
+CFE,Clermont-Ferrand Auvergne,,France
+CGN,Cologne/Bonn,,Germany
+CHS,Charleston International/AFB,,SC
+CKG,Chongqing Jiangbei International,,China
+CLE,Cleveland Hopkins International,,OH
+CLT,Charlotte Douglas International,,NC
+CMA,Cunnamulla,,Australia
+CMH,Columbus John Glenn International,,OH
+CPH,Copenhagen Kastrup,,Denmark
+CPS,St Louis Downtown Airport,,MO
+CRL,Brussels S. Charleroi,,Belgium
+CUF,Cuneo Levaldigi,,Italy
+CUN,Cancun International,,Mexico
+CUR,Curacao Hato International,,Curacao
+CVG,Cincinnati Northern Kentucky International,,OH
+CWB,Curitiba Afonso Pena International,,Brazil
+CZM,Cozumel International,,Mexico
+DAL,Dallas Love Field,,TX
+DCA,Washington Ronald Reagan National,,DC
+DEL,Delhi Indira Gandhi International,,India
+DEN,Denver International,,CO
+DFW,Dallas/Fort Worth International,,TX
+DGO,Durango Guadalupe Victoria International,,Mexico
+DNZ,Denizli Cardak,,Turkey
+DOH,Doha Hamad International,,Qatar
+DPS,Denpasar-Bali Ngurah Rai,,Indonesia
+DSN,Ordos Ejin Horo,,China
+DTW,Detroit Metropolitan Wayne County,,MI
+DUB,Dublin International,,Ireland
+DUS,Duesseldorf,,Germany
+DXB,Dubai International,,United Arab Emirates
+EBB,Entebbe International,,Uganda
+EBL,Erbil International,,Iraq
+EDI,Edinburgh,,United Kingdom
+EIN,Eindhoven,,Netherlands
+EKW,Miami BL,,FL
+ELP,El Paso International,,TX
+EMA,Nottingham East Midlands,,United Kingdom
+EMK,Emmonak,,AK
+EUG,Eugene Mahlon Sweet Field,,OR
+EVV,Evansville Regional,,IN
+EWR,Newark Liberty International,,NJ
+FAI,Fairbanks International,,AK
+FAO,Faro,,Portugal
+FAT,Fresno Yosemite International,,CA
+FCO,Rome Fiumicino,,Italy
+FDF,Fort-de-France Martinique A. Cesaire,,Martinique
+FLL,Fort Lauderdale International,,FL
+FMM,Memmingen Allgaeu,,Germany
+FNC,Funchal Madeira,,Portugal
+FOC,Fuzhou Changle International,,China
+FRA,Frankfurt International,,Germany
+FUE,Fuerteventura,,Spain
+FWA,Fort Wayne International,,IN
+GCM,Grand Cayman Owen Roberts International,,Cayman Islands
+GDL,Guadalajara Miguel Hidalgo International,,Mexico
+GDN,Gdansk Lech Walesa,,Poland
+GLA,Glasgow International,,United Kingdom
+GOT,Goteborg Landvetter,,Sweden
+GRB,Green Bay Austin Straubel International,,WI
+GRR,Grand Rapids Gerald R. Ford International,,MI
+GSO,Greensboro/High Point P.T. Int'l,,NC
+GSP,Greenville/Spartanburg International,,SC
+GTP,Grants Pass,,OR
+GUA,Guatemala City La Aurora International,,Guatemala
+GUM,Guam A.B. Won Pat International,,Guam
+GVA,Geneva International,,Switzerland
+GYA,Guayaramerin,,Bolivia
+GYE,Guayaquil Jose Joaquin de Olmedo,,Ecuador
+GYS,Guangyuan Panlong,,China
+HAK,Haikou Meilan International,,China
+HAM,Hamburg Airport,,Germany
+HAV,Havana Jose Marti International,,Cuba
+HEL,Helsinki-Vantaa,,Finland
+HGH,Hangzhou Xiaoshan International,,China
+HKG,Hong Kong International,,Hong Kong
+HNL,Honolulu Daniel K. Inouye International,,HI
+HOU,Houston William P. Hobby,,TX
+HRB,Harbin Taiping International,,China
+HRG,Hurghada International,,Egypt
+HSH,Las Vegas Henderson Executive,,NV
+HVR,Havre City-County,,MT
+HYD,Hyderabad Rajiv Gandhi International,,India
+IAD,Washington Dulles International,,DC
+IAH,Houston George Bush Intercont.,,TX
+IBZ,Ibiza,,Spain
+ICN,Seoul Incheon International,,South Korea
+ICT,Wichita Dwight D. Eisenhower,,KS
+IDA,Idaho Falls Regional,,ID
+IDR,Indore Devi Ahilya Bai Holkar,,India
+IKT,Irkutsk,,Russia
+INB,Independence,,Belize
+IND,Indianapolis International,,IN
+ISB,Islamabad International,,Pakistan
+ISK,Nasik Ozar,,India
+ISP,Islip Long Island MacArthur,,NY
+IST,Istanbul,,Turkey
+IXJ,Jammu Satwari,,India
+JAC,Jackson Hole,,WY
+JAI,Jaipur International,,India
+JAN,Jackson Medgar W. Evers International,,MS
+JAX,Jacksonville International,,FL
+JED,Jeddah King Abdulaziz International,,Saudi Arabia
+JFK,New York John F Kennedy International,,NY
+JHG,Jinghong Xishuangbanna Gasa International,,China
+JNB,Johannesburg O.R. Tambo International,,South Africa
+JNG,Jining Da'an,,China
+JNU,Juneau International,,AK
+JSY,Syros Island Dimitrios Vikelas,,Greece
+KGC,Kingscote,,Australia
+KGS,Kos Ippokratis,,Greece
+KIN,Kingston Norman Manley International,,Jamaica
+KJA,Krasnoyarsk,,Russia
+KMG,Kunming Changshui International,,China
+KNH,Kinmen Shangyi,,Taiwan
+KNS,King Island,,Australia
+KOA,Kona Keahole,,HI
+KRK,Krakow John Paul II - Balice,,Poland
+KTN,Ketchikan International,,AK
+KUL,Kuala Lumpur International,,Malaysia
+KVC,King Cove,,AK
+KWE,Guiyang Longdongbao International,,China
+KWI,Kuwait International,,Kuwait
+KZN,Kazan International,,Russia
+LAS,Las Vegas Harry Reid International,,NV
+LAX,Los Angeles International,,CA
+LCK,Columbus Rickenbacker International,,OH
+LGA,New York LaGuardia,,NY
+LGB,Long Beach Daugherty Field,,CA
+LGW,London Gatwick,,United Kingdom
+LHR,London Heathrow,,United Kingdom
+LHW,Lanzhou Zhongchuan,,China
+LIR,Guanacaste,,Costa Rica
+LIS,Lisbon,,Portugal
+LKE,Seattle Lake Union SPB,,WA
+LRM,La Romana Casa de Campo International,,Dominican Republic
+LRU,Las Cruces International,,NM
+LSC,La Serena La Florida,,Chile
+LSH,Lashio,,Myanmar
+LSP,Las Piedras Josefa Camejo International,,Venezuela
+LTN,London Luton,,United Kingdom
+LUX,Luxembourg,,Luxembourg
+LYS,Lyon St-Exupery,,France
+MAD,Madrid Adolfo Suarez-Barajas,,Spain
+MAF,Midland International,,TX
+MAN,Manchester,,United Kingdom
+MCI,Kansas City International,,MO
+MCO,Orlando International,,FL
+MDW,Chicago Midway International,,IL
+MEM,Memphis International,,TN
+MEX,Mexico City Benito Juarez International,,Mexico
+MHT,Manchester-Boston Regional,,NH
+MIA,Miami International,,FL
+MID,Merida M. Crescencio Rejon,,Mexico
+MIG,Mianyang Nanjiao,,China
+MKE,Milwaukee General Mitchell International,,WI
+MMB,Memanbetsu,,Japan
+MRI,Anchorage Merrill Field,,AK
+MSP,Minneapolis/St Paul International,,MN
+MSS,Massena International,,NY
+MSY,New Orleans Louis Armstrong International,,LA
+MTY,Monterrey Mariano Escobedo International,,Mexico
+MUC,Munich Franz Joseph Strauss Int'l,,Germany
+MXL,Mexicali R.Sanchez Taboada International,,Mexico
+MXP,Milan Malpensa,,Italy
+MZT,Mazatlan Rafael Buelna International,,Mexico
+NAP,Naples Capodichino,,Italy
+NAS,Nassau Lynden Pindling International,,Bahamas
+NBO,Nairobi Jomo Kenyatta International,,Kenya
+NCE,Nice Cote d'Azur,,France
+NCL,Newcastle International,,United Kingdom
+NGB,Ningbo Lishe International,,China
+NGO,Nagoya Chubu Centrair International,,Japan
+NKG,Nanjing Lukou International,,China
+NLU,Mexico City Felipe Angeles International,,Mexico
+NNG,Nanning Wuxu International,,China
+NTE,Nantes Atlantique,,France
+NUE,Nuremberg,,Germany
+OAK,Oakland International,,CA
+OGG,Kahului,,HI
+OGU,Ordu/Giresun,,Turkey
+OKC,Oklahoma City Will Rogers World,,OK
+OLB,Olbia Costa Smeralda,,Italy
+OMA,Omaha Eppley Airfield,,NE
+ONT,Los Angeles Ontario International,,CA
+OPF,Miami Opa-locka Executive,,FL
+OPO,Porto Francisco Sa Carneiro,,Portugal
+ORD,Chicago O'Hare International,,IL
+ORF,Norfolk International,,VA
+OSL,Oslo Gardermoen,,Norway
+OVB,Novosibirsk Tolmachevo,,Russia
+PAE,Seattle Snohomish County,,WA
+PAP,Port-au-Prince Toussaint Louverture,,Haiti
+PBI,Palm Beach International,,FL
+PDX,Portland International,,OR
+PEK,Beijing Capital International,,China
+PFO,Paphos International,,Cyprus
+PGV,Pitt-Greenville,,NC
+PHL,Philadelphia International,,PA
+PHX,Phoenix Sky Harbor International,,AZ
+PIE,Tampa St.Pete-Clearwater International,,FL
+PIT,Pittsburgh International,,PA
+PKB,Parkersburg Mid-Ohio Valley Regional,,WV
+PLS,Providenciales International,,Turks and Caicos Islands
+PMI,Palma de Mallorca,,Spain
+PRG,Prague Vaclav Havel,,Czech Republic
+PSM,Boston Portsmouth Pease International,,NH
+PSP,Palm Springs International,,CA
+PTP,Pointe-a-Pitre Le Raizet,,Guadeloupe
+PTX,Pitalito,,Colombia
+PTY,Panama City Tocumen International,,Panama
+PUJ,Punta Cana International,,Dominican Republic
+PVD,Providence T.F. Green State Apt,,RI
+PVR,Puerto Vallarta G.Diaz Ordaz International,,Mexico
+PWM,Portland International Jetport,,ME
+QBC,Bella Coola,BC,Canada
+QGP,Garanhuns,,Brazil
+QKL,Cologne/Bonn Cologne Hbf Railway Station,,Germany
+QLP,La Spezia Railway Station,,Italy
+QNS,Canoas Campo Nossa Senhora de Fatima,,Brazil
+QOW,Owerri Sam Mbakwe International,,Nigeria
+QRO,Queretaro Intercontinental,,Mexico
+QRW,Warri Osubi,,Nigeria
+QSF,Setif 8 Mai 45,,Algeria
+QSR,Salerno Pontecagnano,,Italy
+QSZ,Shache Yeerqiang,,China
+QUO,Uyo Akwa Ibom International,,Nigeria
+RAK,Marrakech Menara,,Morocco
+RCB,Richards Bay,,South Africa
+RCM,Richmond,,Australia
+RDM,Redmond/Bend Roberts Field,,OR
+RDU,Raleigh/Durham International,,NC
+RHO,Rhodes Diagoras,,Greece
+RIC,Richmond International,,VA
+RIX,Riga International,,Latvia
+RNO,Reno/Tahoe International,,NV
+ROC,Greater Rochester International,,NY
+ROW,Roswell International Air Center,,NM
+RSW,Fort Myers Southwest Florida International,,FL
+RUH,Riyadh King Khalid International,,Saudi Arabia
+SAL,San Salvador El Salvador International,,El Salvador
+SAN,San Diego International,,CA
+SAT,San Antonio International,,TX
+SAV,Savannah Hilton Head International,,GA
+SBA,Santa Barbara Municipal,,CA
+SCL,Santiago Arturo Merino Benitez,,Chile
+SCR,Salen Scandinavian Mountains,,Sweden
+SDF,Louisville International-Standiford Field,,KY
+SDQ,Santo Domingo Las Americas International,,Dominican Republic
+SDY,Sidney Richland Municipal,,MT
+SEA,Seattle-Tacoma International,,WA
+SFB,Orlando Sanford International,,FL
+SFO,San Francisco International,,CA
+SHC,Inda Selassie Shire,,Ethiopia
+SID,Sal Island Amilcar Cabral International,,Cape Verde
+SJC,San Jose Norman Y. Mineta International,,CA
+SJD,San Jose del Cabo Los Cabos International,,Mexico
+SJU,San Juan Luis Munoz Marin International,,PR
+SLC,Salt Lake City International,,UT
+SLL,Salalah,,Oman
+SLU,St Lucia George F.L. Charles,,Saint Lucia
+SLY,Salekhard,,Russia
+SMF,Sacramento International,,CA
+SNA,Santa Ana John Wayne,,CA
+SRQ,Sarasota/Bradenton International,,FL
+SSA,Salvador Luis E. Magalhaes International,,Brazil
+STL,St. Louis Lambert Int'l,,MO
+SUJ,Satu Mare,,Romania
+SVA,Savoonga,,AK
+SVL,Savonlinna,,Finland
+SVR,Savissivik Heliport,,Greenland
+SVU,Savusavu,,Fiji
+SXM,St Maarten Princess Juliana International,,Sint Maarten
+SYB,Seal Bay Sea Plane Base,,AK
+SYR,Syracuse Hancock International,,NY
+SYX,Sanya Phoenix International,,China
+SZG,Salzburg W.A. Mozart,,Austria
+TAS,Tashkent International,,Uzbekistan
+TFS,Tenerife Sur Reina Sofia,,Spain
+TFU,Chengdu Tianfu International,,China
+THU,Pituffik Thule Air Base,,Greenland
+TIJ,Tijuana A.L. Rodriguez International,,Mexico
+TLC,Mexico City Toluca-A.Lopez Mateos,,Mexico
+TLS,Toulouse Blagnac,,France
+TLT,Tuluksak,,AK
+TLV,Tel Aviv-Yafo Ben Gurion International,,Israel
+TPA,Tampa International,,FL
+TPE,Taipei Taiwan Taoyuan International,,Taiwan
+TQO,Tulum Felipe Carrillo Puerto,,Mexico
+TRW,Tarawa Bonriki International,,Kiribati
+TSN,Tianjin Binhai International,,China
+TUL,Tulsa International,,OK
+TUS,Tucson International,,AZ
+UBN,Ulaanbaatar Chinggis Khaan,,Mongolia
+UCT,Ukhta,,Russia
+UDI,Uberlandia Cesar Bombonato,,Brazil
+UDR,Udaipur Maharana Pratap,,India
+UFA,Ufa,,Russia
+UGC,Urgench International,,Uzbekistan
+ULV,Ulyanovsk Baratayevka,,Russia
+UNK,Unalakleet,,AK
+URC,Urumqi Diwopu International,,China
+UUD,Ulan-Ude Mukhino,,Russia
+UVF,St Lucia Hewanorra International,,Saint Lucia
+UYN,Yulin - Shanxi Yuyang,,China
+VAR,Varna,,Bulgaria
+VCE,Venice Marco Polo,,Italy
+VCP,Sao Paulo Viracopos-Campinas International,,Brazil
+VIE,Vienna Schwechat International,,Austria
+VLC,Valencia,,Spain
+VNO,Vilnius International,,Lithuania
+VNY,Los Angeles Van Nuys,,CA
+VQS,Vieques A.Rivera Rodriguez,,PR
+VRA,Varadero Juan G. Gomez International,,Cuba
+VRB,Vero Beach Municipal,,FL
+VRN,Verona Villafranca,,Italy
+WAW,Warsaw Frederic Chopin,,Poland
+WEH,Weihai Dashuibo,,China
+WHA,Wuhu Xuanzhou,,China
+WIL,Nairobi Wilson,,Kenya
+WMI,Warsaw-Modlin Mazovia,,Poland
+WNZ,Wenzhou Yongqiang International,,China
+WRG,Wrangell,,AK
+WRO,Wroclaw Nicolaus Copernicus,,Poland
+WUH,Wuhan Tianhe International,,China
+WUX,Wuxi Sunan Shuofang,,China
+XAI,Xinyang Minggang,,China
+XFN,Xiangyang Liuji,,China
+XIC,Xichang Qingshan,,China
+XIL,Xilinhot,,China
+XIY,Xi'an Xianyang International,,China
+XLS,St-Louis,,Senegal
+XMN,Xiamen Gaoqi International,,China
+XNA,Northwest Arkansas Regional,,AR
+XNN,Xining Caojiabao,,China
+XNT,Xingtai Dalian,,China
+XUZ,Xuzhou Guanyin,,China
+YBP,Yibin Wuliangye Airport,,China
+YCU,Yuncheng Guangong,,China
+YEG,Edmonton International,AB,Canada
+YGV,Havre-St-Pierre,QC,Canada
+YHZ,Halifax Stanfield International,NS,Canada
+YIH,Yichang Sanxia,,China
+YKS,Yakutsk,,Russia
+YLX,Yulin - Guangxi Fumian,,China
+YNT,Yantai Penglai International,,China
+YOW,Ottawa Macdonald-Cartier International,ON,Canada
+YQB,Quebec Jean Lesage International,QC,Canada
+YTE,Kinngait Cape Dorset,NU,Canada
+YTY,Yangzhou Taizhou International,,China
+YUL,Montreal Pierre E.Trudeau International,QC,Canada
+YVB,Bonaventure,QC,Canada
+YVR,Vancouver International,BC,Canada
+YWG,Winnipeg J.A. Richardson International,MB,Canada
+YYC,Calgary International,AB,Canada
+YYT,St John's International,NL,Canada
+YYZ,Toronto Lester B. Pearson International,ON,Canada
+YZG,Salluit,QC,Canada
+ZAD,Zadar,,Croatia
+ZAG,Zagreb Franjo Tudman,,Croatia
+ZAZ,Zaragoza,,Spain
+ZFN,Tulita,NT,Canada
+ZHA,Zhanjiang Wuchuan,,China
+ZIA,Zhukovsky,,Russia
+ZNZ,Zanzibar Abeid Amani Karume International,,Tanzania
+ZRH,Zurich Airport,,Switzerland
+ZTH,Zakynthos Island Dionisios Solomos,,Greece
+ZUH,Zhuhai Sanzao International,,China
+ZVK,Savannakhet,,Laos
+ZYI,Zunyi Xinzhou,,China
+ZYR,Brussels Midi Railway Station,,Belgium

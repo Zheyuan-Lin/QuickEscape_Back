@@ -1,0 +1,110 @@
+city_cd,dest_id,dest_name,dest_lat,dest_lon,image_url
+AUA,-1307825,Oranjestad,12.52687,-70.03568,https://cf.bstatic.com/xdata/images/city/150x150/727664.jpg?k=f9cf6b959d8faaa425fbbba4702116c40e791c1125b9462e590cb7432446d6ed&o=
+BON,-1750167,Bonn,50.7333,7.1,https://cf.bstatic.com/xdata/images/city/150x150/972575.jpg?k=b8eba5fc0cd3e1f267c9afb2fb3a88d0313290628ed88a8d1211a4c67a04ac3d&o=
+NAS,20123908,Nashville,36.16223,-86.77435,https://cf.bstatic.com/xdata/images/city/150x150/976859.jpg?k=9ecf43ad95fab38140e5327020551244d84e4dc20df4dbaaa3682566f1b88ca6&o=
+BZE,-1148788,Belize City,17.49521,-88.20174,https://cf.bstatic.com/xdata/images/city/150x150/114714.jpg?k=e94a5cca1968c9fcc5e5d68cae9f06e58e153826be9744821ab6534437c4f14d&o=
+YEA,-564064,Edmonton,53.53436,-113.50651,https://cf.bstatic.com/xdata/images/city/150x150/653194.jpg?k=77a20262c110da1a25502b10ce5f672e6fd3815e3428389c911b10005eba2e99&o=
+YYC,-561990,Calgary,51.04485,-114.055595,https://cf.bstatic.com/xdata/images/city/150x150/653168.jpg?k=ceda450b4ea447e9d2f8d04bf6bcc061bcfd571d4f85dfb02002dc9d863732e1&o=
+YVR,-575268,Vancouver,49.282413,-123.12119,https://cf.bstatic.com/xdata/images/city/150x150/653280.jpg?k=22d48ac39a830a7f37538454fdb0857980fe22cda6ac1afd46d31db9453c0893&o=
+YWG,-576096,Winnipeg,49.895115,-97.13837,https://cf.bstatic.com/xdata/images/city/150x150/972542.jpg?k=4a33c3c2a440031828c0e7cdbdcc69e61cf16326673be426bb69ae41ca817a73&o=
+YYT,-572899,St. John's,47.56148,-52.71258,https://cf.bstatic.com/xdata/images/city/150x150/807336.jpg?k=5012a65086ebb412cc0078afdbd0cb464e0737b9c7c1f3fc460e762c33efae6d&o=
+YHZ,-565805,Halifax,44.64843,-63.57497,https://cf.bstatic.com/xdata/images/city/150x150/653200.jpg?k=17c8ac302e6160b1d8c3542a0313704c492173cdf1a3c7b8628ea5ccd6c841de&o=
+YOW,-570760,Ottawa,45.421703,-75.696144,https://cf.bstatic.com/xdata/images/city/150x150/653252.jpg?k=6e4d38e8d8a73bb839501ff0794ead84831fa0bd176c1f514bbd9bd9531892ce&o=
+YTO,-574890,Toronto,43.652,-79.381966,https://cf.bstatic.com/xdata/images/city/150x150/971989.jpg?k=1e02f419fe4a28344bb98db67c4153ba6c9fb5b4837e2e038612cff9ea419c65&o=
+YMQ,-569541,Montréal,45.509907,-73.56746,https://cf.bstatic.com/xdata/images/city/150x150/653229.jpg?k=f554e0de37db6377d588b6efd1ce431a2604f7f5a4627f922d928c0620469270&o=
+YQB,-571851,Quebec City,46.813877,-71.20803,https://cf.bstatic.com/xdata/images/city/150x150/653254.jpg?k=d1d26de97e53390a1021498d052aae928e69a553b600dcece84099c70639d34e&o=
+LIR,-1107872,Liberia,10.6333,-85.4333,https://cf.bstatic.com/xdata/images/city/150x150/935275.jpg?k=b0dc0b2eff7d8f8c95d3cc252d939255ef46322c532edfe2b2f5a303b3e41d94&o=
+HAV,-1441598,Le Havre,49.49489,0.107723,https://cf.bstatic.com/xdata/images/city/150x150/647800.jpg?k=3053516733943c9494238acf425066dd8432a0d2764aa6ba428d5c829bcceebc&o=
+VRA,-100897,Vranje,42.5514,21.9003,https://cf.bstatic.com/xdata/images/city/150x150/824019.jpg?k=b1bd2f2de7f539df05241f945682d0a5ea69d8fb7bfdc2feb45f982022074164&o=
+CUR,-639568,Curitiba,-25.432821,-49.275867,https://cf.bstatic.com/xdata/images/city/150x150/653458.jpg?k=a5651277fcb47218ef87ddd63fb92612fccbc19e5c0e1e2021c2c015fdc59039&o=
+SDQ,-3366242,Santo Domingo,18.473652,-69.897484,https://cf.bstatic.com/xdata/images/city/150x150/688770.jpg?k=c6b4560291a29010c17346edc745f760bde24a22eb844f177926d70ba202fd85&o=
+PUJ,-3364907,Punta Cana,18.614904,-68.38839,https://cf.bstatic.com/xdata/images/city/150x150/688779.jpg?k=def43ae0127037a004ded67b24b8f978345b16a8d10edd0832dcabbed12f2fcd&o=
+LRM,-3358188,La Romana,18.4273,-68.97346,https://cf.bstatic.com/xdata/images/city/150x150/735111.jpg?k=a8f579fd0d34714201f818d8a8a4a8ae6b7b42ab2681516b4a7f07239bc01787&o=
+PTP,-1203568,Pointe-à-Pitre,16.24086,-61.53341,https://cf.bstatic.com/xdata/images/city/150x150/885759.jpg?k=eb0ef7dd94283fc99ffd311b3230372db59c1dbb4737dd6896834ef559e975b2&o=
+GUA,-1669612,Guadalajara,20.67614,-103.347,https://cf.bstatic.com/xdata/images/city/150x150/682594.jpg?k=9571cf0f6d188e30e921f7027ffdf15c1bf51b060517d494097e2d37cf410ac7&o=
+PAP,-2738671,Paphos,34.774822,32.422745,https://cf.bstatic.com/xdata/images/city/150x150/688236.jpg?k=419d14ec9a9b0f00b129b44b31908bafefa1c4bb4b3bf3865a3f460c570c9e08&o=
+KIN,-3752438,Kingston,17.97122,-76.79281,https://cf.bstatic.com/xdata/images/city/150x150/688927.jpg?k=1a23656cff7214328f5618efb440cbae29417cb6d24661fb7e8c4646e6a1d311&o=
+GCM,-1187463,George Town,19.28699,-81.3717,https://cf.bstatic.com/xdata/images/city/150x150/931670.jpg?k=3605e4ddc5c09ab828b2fa144e5e08f5776acd9fe6bcfb14594b6c8e536b0529&o=
+SLU,-528852,Słupsk,54.46493,17.02807,https://cf.bstatic.com/xdata/images/city/150x150/633256.jpg?k=4382f49780b8a4605c78bf3c7cf80dca9f0e335754eac1e5d7b60a5502573979&o=
+FDF,-1554082,Fort-de-France,14.60372,-61.07677,https://cf.bstatic.com/xdata/images/city/150x150/791519.jpg?k=73b954a8d8a5cce694d585bd706d6bd8a71b3df7b47d62370193ce92ff2e8820&o=
+TIJ,-1705741,Tijuana,32.52882,-117.03683,https://cf.bstatic.com/xdata/images/city/150x150/682766.jpg?k=40e26fe245ec207a5278fa73422df36280548b52c2efe13436ebbb248a430ca7&o=
+SJD,-1697788,San José del Cabo,23.05,-109.683,https://cf.bstatic.com/xdata/images/city/150x150/682732.jpg?k=cc5d55f49e74a2e86e4047e5b4eb1d9dfadfc08450a2ebf6f1dbc8aca949acfb&o=
+MEX,-1658079,Mexico City,19.432863,-99.1333,https://cf.bstatic.com/xdata/images/city/150x150/682570.jpg?k=88217ed4855a6c17c8291f0a6e56a21b24bf334a8bb6ec350429f577ce9ae489&o=
+DGO,-1661005,Durango,24.02444,-104.67026,https://cf.bstatic.com/xdata/images/city/150x150/775189.jpg?k=3ffc00cf3a428673a3f34d62d5e29fb767890bb8ce4c22615d38130890226d0e&o=
+GDL,-1669612,Guadalajara,20.67614,-103.347,https://cf.bstatic.com/xdata/images/city/150x150/682594.jpg?k=9571cf0f6d188e30e921f7027ffdf15c1bf51b060517d494097e2d37cf410ac7&o=
+PVR,-1690444,Puerto Vallarta,20.595749,-105.23955,https://cf.bstatic.com/xdata/images/city/150x150/682699.jpg?k=85342fe0dc72f0958d4e4ddeceeddfa0d385b29cd9c71eaea15965bd771e694a&o=
+MTY,-1684228,Monterrey,25.67649,-100.30608,
+CUN,-1655011,Cancún,21.161314,-86.83413,https://cf.bstatic.com/xdata/images/city/150x150/682559.jpg?k=eba0a86971de163610eaab458cd7c2483f59ff8f350d2f63eceed77d21afbed3&o=
+CZM,-1659715,Cozumel,20.5083,-86.9458,https://cf.bstatic.com/xdata/images/city/150x150/682571.jpg?k=97c6abcb8028dc03d2e1fc2c844761a8e95f066926f8b91287bc4bbeb41dc9e8&o=
+MZT,-1682941,Mazatlán,23.236061,-106.415634,https://cf.bstatic.com/xdata/images/city/150x150/682631.jpg?k=2d53a0213a9283dde32193c7d9d8a9c80cae253a23101d3eb1c973eefd0a25ae&o=
+MID,20129770,Midland,31.9972,-102.077,https://cf.bstatic.com/xdata/images/city/150x150/847049.jpg?k=6808071fa8cf13fa3e196d9238ead1823e6a91f1ace998394d2f941fb3116817&o=
+PTY,-168008,Panama City,8.977254,-79.52033,https://cf.bstatic.com/xdata/images/city/150x150/643587.jpg?k=7a6ea4ce4ab091c588b4c0e8cddaa89c1e77399c0e5f6bdd83fd73653911fba1&o=
+SJU,20154335,San Juan,18.4653,-66.11667,https://cf.bstatic.com/xdata/images/city/150x150/690620.jpg?k=5b801857b88469e1cc299707cda5a8ee86c757a159c04ff69fbc1fbb37a9fe4c&o=
+SAL,-1989985,Salzburg,47.80047,13.044604,https://cf.bstatic.com/xdata/images/city/150x150/684117.jpg?k=9a6ac367644d46d8d7674828d4d21c034f8a741034b63288656ad7be79d4c501&o=
+SXM,900049705,Simpson Bay,18.033,-63.092,https://cf.bstatic.com/xdata/images/city/150x150/697063.jpg?k=b6889f522fda845236da8341011f5d1207b52416c5a0eaa8a843788a422ca9a7&o=
+PLS,900049149,Providenciales,21.7778,-72.26116,https://cf.bstatic.com/xdata/images/city/150x150/912357.jpg?k=bba97d85bf195d45d23fc9c457ab09168fe9c791ffca7daa924b1ec53b55cb03&o=
+ANC,20004981,Anchorage,61.2181,-149.9,https://cf.bstatic.com/xdata/images/city/150x150/689181.jpg?k=c5527c336181c46941afc136e691d79813eeaa2d082749a8dd6eba415c93cbe6&o=
+PHX,20006890,Phoenix,33.4483,-112.073,https://cf.bstatic.com/xdata/images/city/150x150/976755.jpg?k=9393732a057dcf5a85687db3be404e40c9e4829a45f3fcb35dff63dc18743de3&o=
+LAX,20014181,Los Angeles,34.05205,-118.24327,https://cf.bstatic.com/xdata/images/city/150x150/977422.jpg?k=1df987f6520708416630725b53a49c1d891d376a5892465292e2822cf43325f7&o=
+OAK,20014887,Oakland,37.8044,-122.27,https://cf.bstatic.com/xdata/images/city/150x150/689335.jpg?k=ab7311c9ab83062f870e00bc5d42f11961eb051b25f6f577f292cb8431fd2b47&o=
+ONT,20014970,Ontario,34.06334,-117.65089,https://cf.bstatic.com/xdata/images/city/150x150/689333.jpg?k=250b65bff9bfcf4f556135f77deac0f95f9aabd06b71f2a4c1a353e63069af65&o=
+SAC,20015688,Sacramento,38.5817,-121.493,https://cf.bstatic.com/xdata/images/city/150x150/976854.jpg?k=46efa262daf7825c6db318506fc68745a1cab4c1eab8b34fbe66a35b95626fb0&o=
+SAN,20015725,San Diego,32.712463,-117.16103,https://cf.bstatic.com/xdata/images/city/150x150/976722.jpg?k=913ea3edbe998126d628492a999328bc0edac37023abeeec51744253c85bda5c&o=
+SFO,20015732,San Francisco,37.787804,-122.4075,https://cf.bstatic.com/xdata/images/city/150x150/976712.jpg?k=8a79525adca81ab8b7d294e722e28f79fb86d503713fa74727abd83cf8249a7d&o=
+SJC,20015742,San Jose,37.3394,-121.894,https://cf.bstatic.com/xdata/images/city/150x150/689385.jpg?k=e8575ef809dbc23f167d18b11b595918dfa8efc3abfe719a5f6e220d2a2fd8b7&o=
+SNA,20015791,Santa Ana,33.74996,-117.87328,https://cf.bstatic.com/xdata/images/city/150x150/979593.jpg?k=0253a799546f0221232889714927defe39ae08e05001d6f28fc06e7708f78d34&o=
+DEN,20017349,Denver,39.7458,-104.993225,https://cf.bstatic.com/xdata/images/city/150x150/976896.jpg?k=764eb3286a3a994636006db21914cf8e8c2f01887b775381d27c13b2203d4789&o=
+BDL,20019550,Windsor Locks,41.9292,-72.6278,https://cf.bstatic.com/xdata/images/city/150x150/901786.jpg?k=e1b767eac0e91e55b7bab416fbc48d8e5cb9ad38db612d0e7c60720d1d7995f3&o=
+WAS,20021296,Washington,38.901344,-77.03654,https://cf.bstatic.com/xdata/images/city/150x150/976696.jpg?k=a8ebbf7a6167a238be4862684282b0aa1e0fe6bafaa15eba798a225a95e98902&o=
+FLL,20022339,Fort Lauderdale,26.1219,-80.1436,https://cf.bstatic.com/xdata/images/city/150x150/976905.jpg?k=5a3ac9e6ec03eb39b872674694fc81d05643a1cc7df66b2e93d0de4bf21801d7&o=
+FMY,20022347,Fort Myers,26.640776,-81.87279,https://cf.bstatic.com/xdata/images/city/150x150/689542.jpg?k=946e4b03e158d581c09355eeb5a950f9d74cd6ea79bce2b4666a423b23f754fe&o=
+JAX,20022757,Jacksonville,30.3319,-81.6558,https://cf.bstatic.com/xdata/images/city/150x150/689570.jpg?k=90d5bf82f1bc831f44a7d7652ec47127441e2f2bee6ebb356281db5dc27f87b8&o=
+MIA,20023182,Miami Beach,25.7903,-80.1303,https://cf.bstatic.com/xdata/images/city/150x150/977380.jpg?k=0a432a9c5b7603dbf9387f876a20342efd0fc54a8043d18bcb7dde34be07c397&o=
+ORL,20023488,Orlando,28.5353,-81.3833,https://cf.bstatic.com/xdata/images/city/150x150/976918.jpg?k=ba17581113d23e0a509fba3480bb6c08fef757afd93d9c56808a343bc2612e18&o=
+PBI,20023524,Palm Beach,26.7053,-80.0367,
+SRQ,20023971,Sarasota,27.3361,-82.5308,https://cf.bstatic.com/xdata/images/city/150x150/356085.jpg?k=c6c8f15994604deb4369fdcdf84459aabaf05f34cc1d3409d60a048791f31557&o=
+TPA,20024246,Tampa,27.9472,-82.4586,https://cf.bstatic.com/xdata/images/city/150x150/689685.jpg?k=3452bf9d10c0dda3127237090d44fbe540221b27714afae7b22f27e35e9cb6bf&o=
+ATL,20024809,Atlanta,33.7489,-84.3881,https://cf.bstatic.com/xdata/images/city/150x150/976883.jpg?k=f3736d372fc77357db633338da510666ff7dcb561eebd9cd2643a4db20b3c9e5&o=
+SAV,20029490,Savannah,32.074093,-81.09137,https://cf.bstatic.com/xdata/images/city/150x150/352165.jpg?k=2adced2b1f7308960879a19dcdfd0d70ef4dcdb84dbeefcf1a839dd4f7e0c8ab&o=
+HNL,20030916,Honolulu,21.3069,-157.858,https://cf.bstatic.com/xdata/images/city/150x150/976921.jpg?k=6191ab34809f88c4ed6087c62c3a9f73f37b2cca9ac2d718ffaa4e4c0175df5b&o=
+OGG,20030949,Kahului,20.888805,-156.47295,https://cf.bstatic.com/xdata/images/city/150x150/680539.jpg?k=28428b1c1f5e71ec8d44952fc1ca084759e72764365cb7e84ad48a3944379a89&o=
+CHI,20033173,Chicago,41.8821,-87.6243,https://cf.bstatic.com/xdata/images/city/150x150/689744.jpg?k=3c7c6d59d968c2bade9003d9ebf8a1346455ce92abe94ffaa29247839161f09e&o=
+IND,20037880,Indianapolis,39.7683,-86.1581,https://cf.bstatic.com/xdata/images/city/150x150/976816.jpg?k=5e997d1be4ef5b309c6fbfe431fc26ece713aca6c8cfeceebc98d35c77348d11&o=
+CVG,20097593,Cincinnati,39.10145,-84.51246,https://cf.bstatic.com/xdata/images/city/150x150/648134.jpg?k=f6570e159ef41c78e7b17192aa3cbdbc538da0ba2e06d325fd400140f3b20b91&o=
+SDF,20046120,Louisville,38.2542,-85.7594,https://cf.bstatic.com/xdata/images/city/150x150/689772.jpg?k=32222979890101d37e7c26bf79358d4c4705db3599028ff230ac6129ddf99821&o=
+MSY,20050264,New Orleans,29.951752,-90.07681,https://cf.bstatic.com/xdata/images/city/150x150/976876.jpg?k=0431a4ff8274f5ddd491d12e5cb34ce5ef2afd67b1adf19c54a7f0dcd170468e&o=
+BOS,20061717,Boston,42.3589,-71.0578,https://cf.bstatic.com/xdata/images/city/150x150/976694.jpg?k=2d9c7cfee16c559fd62fdc7cafb491f4b28494b99525fa00318186e6be96a202&o=
+BWI,20053799,Baltimore,39.2903,-76.6125,https://cf.bstatic.com/xdata/images/city/150x150/970933.jpg?k=057f0131a203911fd4d18c6ec7a8ff5dbcd17b996efda8d874d78fe945f8dc97&o=
+PWM,20052849,Portland,43.6614,-70.2558,https://cf.bstatic.com/xdata/images/city/150x150/712303.jpg?k=89c8c342306a4830b5a66bcc83e1aa4179e84dcb53f08537ae621a6e815a9f5c&o=
+DTT,20064402,Detroit,42.34866,-83.05674,https://cf.bstatic.com/xdata/images/city/150x150/689825.jpg?k=7aaae086cdc1bf54bc67481eeadd470ce6851500eb83e1b5c65684a614ebef2f&o=
+MSP,20067845,Minneapolis,44.9773,-93.26547,https://cf.bstatic.com/xdata/images/city/150x150/689844.jpg?k=83c2799e52301c64ddadb8cdb77766c1dcfa9de33eaa0df3fd496d030ca4dfe3&o=
+MKC,20073662,Kansas City,39.08447,-94.56303,https://cf.bstatic.com/xdata/images/city/150x150/689848.jpg?k=f0e5f15dc2c775d2cb154dee83a39f89d53ddf665f83dc704502eb64185fda40&o=
+STL,20075118,Saint Louis,38.6272,-90.1978,https://cf.bstatic.com/xdata/images/city/150x150/689858.jpg?k=889232d3745f403dc264e9f41b2c72b729d36377825f7452ce35837cd7a2372a&o=
+CLT,20091627,Charlotte,35.2271,-80.8431,https://cf.bstatic.com/xdata/images/city/150x150/976741.jpg?k=1fb700f43d6871ce2544f959a698c651713f3ff041d4caf0d7774f5a6d41093c&o=
+RDU,20094466,Raleigh,35.7804,-78.63908,https://cf.bstatic.com/xdata/images/city/150x150/690058.jpg?k=21ce55076ed6f9841d88434dae9860fe26930fcd04e24815b65ebc349ddec0de&o=
+OMA,20078399,Omaha,41.25873,-95.93787,https://cf.bstatic.com/xdata/images/city/150x150/689872.jpg?k=e4b43d273c0fcfd3a143cffdbc91591fa32465f9b9df58aea3d3b14297407947&o=
+NYC,20088325,New York,40.768074,-73.981895,https://cf.bstatic.com/xdata/images/city/150x150/977436.jpg?k=ee0baaf82d482fae02bcb8dda25be1abff1da43d187bbb26ae6b2f3c9b5f4e61&o=
+ABQ,20083006,Albuquerque,35.0844,-106.651,https://cf.bstatic.com/xdata/images/city/150x150/689954.jpg?k=a2a7cf530e974ed3cb0aa4febbc24e2ea50be4c7c34e0b0acb9a9bd07731ae85&o=
+LAS,20079110,Las Vegas,36.119,-115.168,https://cf.bstatic.com/xdata/images/city/150x150/977408.jpg?k=125215335ffab346e954ff91ddbf6e4d2f15812d3e3a51b654ccd29705cce852&o=
+RNO,20079268,Reno,39.5297,-119.813,https://cf.bstatic.com/xdata/images/city/150x150/976806.jpg?k=7827f0b9c992d91cd8633c66a2f856b6c15d19f00c9f779a73ba6394b5567be1&o=
+BUF,20085250,Buffalo,42.8864,-78.8786,https://cf.bstatic.com/xdata/images/city/150x150/667263.jpg?k=7940af7db25cc52f2ce378dd0c7bdc089c5aa97a18851e6cb8dd5099a8affabd&o=
+SYR,20090020,Syracuse,43.0481,-76.1478,https://cf.bstatic.com/xdata/images/city/150x150/980159.jpg?k=bd791c980e2dd8f0d9bd3fd1dcbf5d11f786f130f07bd45b0073b22926edf134&o=
+CLE,20097630,Cleveland,41.50516,-81.69344,https://cf.bstatic.com/xdata/images/city/150x150/970943.jpg?k=af8b8c355b47b09b8c0c27bf6dbc31c4fdd9b5c936da5fbcdd8d32a6f45eabb7&o=
+CMH,20097699,Columbus,39.9611,-82.9989,https://cf.bstatic.com/xdata/images/city/150x150/690082.jpg?k=2f56deeb6a05591660fc9402a9e0c8fb878bf9c829ed0855b8e17375aa0183e0&o=
+OKC,20103321,Oklahoma City,35.47299,-97.51705,https://cf.bstatic.com/xdata/images/city/150x150/690100.jpg?k=80ea48b517095b6e2256de225d7a3924ccc73ad6403ce84be61e7ea60e8943d0&o=
+TUL,-1707023,Tulum,20.21067,-87.46295,https://cf.bstatic.com/xdata/images/city/150x150/682783.jpg?k=9b2204e9a402d16d355ce5fd8e93b6bb1db8be8e1ad61a9abe836f1718a06b04&o=
+PDX,20104927,Portland,45.52217,-122.68249,https://cf.bstatic.com/xdata/images/city/150x150/976759.jpg?k=24dc167c33f139993dcf441d910a2da8aeb2d406bbfc64bfd0fdd45782e9891b&o=
+PHL,20111994,Philadelphia,39.9522,-75.1642,https://cf.bstatic.com/xdata/images/city/150x150/976842.jpg?k=9b0eed9466d59e08b88d020c240b58cbd6f34b81229ad13d1b63dcabea0eac7b&o=
+PIT,20112087,Pittsburgh,40.44169,-79.99009,https://cf.bstatic.com/xdata/images/city/150x150/690136.jpg?k=8bc586e7c10ddeef1401e3fff36eddfebc8322ba07fba8e6a3cf240616a0116f&o=
+PVD,20115318,Warwick,41.7,-71.4167,https://cf.bstatic.com/xdata/images/city/150x150/782362.jpg?k=921dd390c2e490318e7cc7f22dd3d2f33c2c71fbc7edf7fa1566e3f2ee6d9b34&o=
+BNA,20123908,Nashville,36.16223,-86.77435,https://cf.bstatic.com/xdata/images/city/150x150/976859.jpg?k=9ecf43ad95fab38140e5327020551244d84e4dc20df4dbaaa3682566f1b88ca6&o=
+MEM,20123619,Memphis,35.14902,-90.05163,https://cf.bstatic.com/xdata/images/city/150x150/976745.jpg?k=9f0067e35d2d323e71fd66e4bcf0060c05f599f76c86bac945c9c5aa21491aa8&o=
+AUS,20126394,Austin,30.2669,-97.7428,https://cf.bstatic.com/xdata/images/city/150x150/690329.jpg?k=330403cfa8e49ee98d01a4808f169d520e49f24348154b8cb7f637497015802f&o=
+DFW,20127504,Dallas,32.7833,-96.8,https://cf.bstatic.com/xdata/images/city/150x150/976890.jpg?k=2ef1427cb3b629db8ecae1b402047e45a49805627b68876e48eefc4b6379643a&o=
+HOU,20128761,Houston,29.76,-95.3625,https://cf.bstatic.com/xdata/images/city/150x150/690408.jpg?k=f59731e733077b90bc716596e05cfd0f85a2582341cc25c17b26ee2a755d7b55&o=
+SAT,20131185,San Antonio,29.4239,-98.4933,https://cf.bstatic.com/xdata/images/city/150x150/976729.jpg?k=d9f89929366ddab9d01c136efc46284b564597d08db1986278f3a948b9051ecc&o=
+SLC,20133956,Salt Lake City,40.76701,-111.89043,https://cf.bstatic.com/xdata/images/city/150x150/976798.jpg?k=25f027ae0fa9e64453ce5da92e881f2c86c872dd7c67847f5de56bc1c849ea3c&o=
+ORF,20140148,Norfolk,36.84651,-76.29164,https://cf.bstatic.com/xdata/images/city/150x150/727993.jpg?k=c05a205761126290376f86f4a00ab06d6ca942f991b883f36897552b6591b772&o=
+RIC,20141027,Richmond,37.53851,-77.43428,https://cf.bstatic.com/xdata/images/city/150x150/690531.jpg?k=f8501a4e40739f39e46e7877c94712be9b6f6e71ea6c8a4c72efcab08156e284&o=
+SEA,20144883,Seattle,47.6064,-122.331,https://cf.bstatic.com/xdata/images/city/150x150/976776.jpg?k=c1c6ead8ae48b406ea82d3692788f9269335c8e7da7fd451929588020d081f1d&o=
+MKE,20150599,Milwaukee,43.03499,-87.9225,https://cf.bstatic.com/xdata/images/city/150x150/690586.jpg?k=14ae0173732ec7a427220ad10908aa819efd81daab59b39baaacff8bc2cab45d&o=
