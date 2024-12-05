@@ -1,4 +1,4 @@
-package com.itheima.utils;
+package com.example.quickescapes.util;
 
 import com.auth0.jwt.JWT; 
 import com.auth0.jwt.algorithms.Algorithm; 

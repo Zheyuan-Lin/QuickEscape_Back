@@ -4,6 +4,6 @@ import com.example.quickescapes.dao.User;
 
 public interface UserService {
     User findByUsername(String username);
-    void registerUser(String username, String password);
-    void loginUser(String username, String password);
+    User registerUser(String username, String password);
+    User loginUser(String username, String password);
 }

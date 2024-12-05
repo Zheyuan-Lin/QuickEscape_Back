@@ -1,11 +1,11 @@
-package com.example.quickescapes.serviceimpl;
+package com.example.quickescapes.serviceImpl;
 
-import com.example.quickescapes.dao.User;
 import com.example.quickescapes.mappers.UserMapper;
 import com.example.quickescapes.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import com.example.quickescapes.dao.User;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findByUsername(String username){
-        User u = userMapper.findByUsername(username);
+        User u = userMapper.findUserByUsername(username);
         return u;
     }
 
@@ -27,11 +27,12 @@ public class UserServiceImpl implements UserService {
         String hashedPassword = passwordEncoder.encode(password);
 
         userMapper.add(username, hashedPassword);
+        return userMapper.findUserByUsername(username);
     }
 
     @Override
     public User loginUser(String username, String password) {
-        User user = userRepository.findByUsername(username);
+        User user = userMapper.findUserByUsername(username);
         if (user == null || !passwordEncoder.matches(password, user.getPassword())) {
             throw new RuntimeException("Invalid username or password");
         }
