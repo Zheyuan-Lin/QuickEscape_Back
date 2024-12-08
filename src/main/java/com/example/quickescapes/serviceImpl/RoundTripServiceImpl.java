@@ -17,7 +17,7 @@ public class RoundTripServiceImpl implements RoundTripService {
     private RoundTripMapper mapper;
 
     @Override
-    public List<RoundTrip> findRoundTrip(LocalDate arrival, LocalDate departure, BigDecimal budget, String attribute) {
+    public List<RoundTrip> findRoundTrip(LocalDate arrival, LocalDate departure, BigDecimal budget, List<String> attribute) {
         return mapper.findRoundTrip(arrival, departure, budget, attribute);
     }
 }

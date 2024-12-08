@@ -10,5 +10,5 @@ import java.util.List;
 
 
 public interface HotelsService {
-     List<Hotel> searchHotels(BigDecimal budget, LocalDate checkIn, LocalDate checkOut, String attribute);
+     List<Hotel> searchHotels(BigDecimal budget, LocalDate checkIn, LocalDate checkOut, List<String> attribute);
 }

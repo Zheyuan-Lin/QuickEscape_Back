@@ -1,6 +1,5 @@
 package com.example.quickescapes.controller;
 
-import com.example.quickescapes.dao.CityItineraryVO;
 import com.example.quickescapes.dao.Hotel;
 import com.example.quickescapes.service.HotelsService;
 
@@ -25,7 +24,7 @@ public class HotelController {
     public ResponseEntity<List<Hotel>> findRoundTrip(@RequestParam LocalDate checkin,
                                                @RequestParam LocalDate checkout,
                                                      @RequestParam BigDecimal budget,
-                                                     @RequestParam String attribute) {
+                                                     @RequestParam List<String> attribute) {
         List<Hotel> results =  service.searchHotels(budget, checkin, checkout, attribute);
         if (results.isEmpty()) {
             ErrorCode error = new ErrorCode(100,"No hotel");

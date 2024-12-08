@@ -13,5 +13,5 @@ public interface HotelMapper {
     List<Hotel> getHotelList(@Param("budget") BigDecimal budget,
                              @Param("checkIn")LocalDate checkIn,
                              @Param("checkOut")LocalDate checkOut,
-                             @Param("attribute")String attribute);
+                             @Param("attribute")List<String> attribute);
 }

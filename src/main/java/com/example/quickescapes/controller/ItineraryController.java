@@ -8,6 +8,7 @@ import com.example.quickescapes.service.RoundTripService;
 import com.example.quickescapes.util.Exception.ErrorCode;
 import com.example.quickescapes.util.ResponseEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,10 +25,11 @@ public class ItineraryController {
 
         @RequestMapping("/find")
         public ResponseEntity<List<CityItineraryVO>> findRoundTrip(@RequestParam LocalDate arrival,
-                                                             @RequestParam LocalDate departure,
-                                                             @RequestParam BigDecimal budget,
-                                                                   @RequestParam String attribute) {
-            List<CityItineraryVO> results =  service.findItinerary(arrival, departure, budget, attribute);
+                                                                   @RequestParam LocalDate departure,
+                                                                   @RequestParam BigDecimal budget,
+                                                                   @RequestParam List<String> attributes) {
+
+            List<CityItineraryVO> results =  service.findItinerary(arrival, departure, budget, attributes);
             if (results.isEmpty()) {
                 ErrorCode error = new ErrorCode(100,"No Itinerary");
                 return com.example.quickescapes.util.ResponseEntity.error(error);

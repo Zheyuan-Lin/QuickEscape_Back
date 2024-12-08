@@ -33,19 +33,6 @@ public class FareServiceImpl implements FareService {
     }
 
 
-    private RoundTrip convertToFlight(Itinerary itinerary) {
-        RoundTrip trip = new RoundTrip();
-        trip.setCityCode(itinerary.getCityCode());
-        trip.setOutboundDepartureDate(itinerary.getOutboundDepartureDate());
-        trip.setOutboundPrice(itinerary.getOutboundPrice());
-        trip.setOutboundFlightNumbers(itinerary.getOutboundFlightNumber());
-        trip.setReturnDepartureDate(itinerary.getReturnDepartureDate());
-        trip.setReturnPrice(itinerary.getReturnPrice());
-        trip.setReturnFlightNumbers(itinerary.getReturnFlightNumber());
-        trip.setFlightTotalPrice(itinerary.getFlightTotalPrice());
-        return trip;
-    }
-
 
 
 }

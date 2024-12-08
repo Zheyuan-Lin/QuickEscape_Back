@@ -13,10 +13,7 @@ import java.util.List;
 
 @Mapper
 public interface RoundTripMapper {
-    List<RoundTrip> findRoundTrip(@Param("arrival")LocalDate arrival, 
-                                 @Param("departure")LocalDate departure, 
-                                 @Param("budget")BigDecimal budget,
-                                  @Param("budget")String attribute);
+    List<RoundTrip> findRoundTrip(LocalDate arrival, LocalDate departure, BigDecimal budget, List<String> attribute);
 
 
 }

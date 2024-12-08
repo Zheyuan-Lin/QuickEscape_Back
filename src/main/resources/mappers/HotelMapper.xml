@@ -12,7 +12,8 @@
         MIN(h.ci_date::TIMESTAMP) AS final_check_in_date, -- Earliest check-in date
         MAX(h.co_date::TIMESTAMP) AS final_check_out_date, -- Latest check-out date
         SUM(h.price) AS total_price, -- Total price of stay
-        h.photo_url
+        h.photo_url,
+        out_airport.attributes AS attributes
         FROM
         hotels h
         JOIN
@@ -21,9 +22,13 @@
         WHERE
         h.ci_date &gt;= #{checkIn} -- Filter for check-in date
         AND h.co_date &lt;= #{checkOut} -- Filter for check-out date
-        AND out_airport.attributes = {attribute}
+        AND (
+            <foreach item="attribute" collection="attribute" separator="AND">
+                out_airport.attributes LIKE CONCAT('%', #{attribute}, '%')
+            </foreach>
+        )
         GROUP BY
-        h.hotel_nm, out_airport.city_nm, h.photo_url
+        h.hotel_nm, out_airport.city_nm, h.photo_url, out_airport.attributes
         HAVING
         SUM(h.price) &lt;= #{budget}; -- Filter for total price after aggregation
     </select>
