@@ -16,9 +16,10 @@ public class Hotel {
     private LocalDate finalCheckInDate;
     private LocalDate finalCheckOutDate;
     private String photoUrl;
-    private double longitude;
-    private double latitude;
-    private BigDecimal reviewScore;
-    private int reviewCount;
+//    private double longitude;
+//    private double latitude;
+//    private BigDecimal reviewScore;
+//    private int reviewCount;
+    private String attributes;
 
 }

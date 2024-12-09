@@ -15,6 +15,6 @@ public class WebConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         // Exclude login and register endpoints from interception
         registry.addInterceptor(loginInterceptor)
-                .excludePathPatterns("/user/login", "/user/register");
+                .excludePathPatterns("/user/login", "/user/register", "/user/register/**");
     }
 }

@@ -15,7 +15,7 @@ public class JwtUtil {
     public static String genToken(Map<String, Object> claims) {
         return JWT.create()
                 .withClaim("claims", claims) // Add the claims as a payload
-                .withExpiresAt(new Date(System.currentTimeMillis() + 1000 * 60 * 60 * 12)) // Set expiration time to 12 hours
+                .withExpiresAt(new Date(System.currentTimeMillis() + 10 * 60 * 60 * 12)) // Set expiration time to 12 hours
                 .sign(Algorithm.HMAC256(KEY)); // Sign the token with HMAC256 and the secret key
     }
 

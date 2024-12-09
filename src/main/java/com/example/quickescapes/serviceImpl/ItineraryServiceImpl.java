@@ -32,7 +32,7 @@ public class ItineraryServiceImpl implements ItineraryService {
 
 
     @Override
-    public List<CityItineraryVO> findItinerary(LocalDate arrival, LocalDate departure, BigDecimal budget, String attribute) {
+    public List<CityItineraryVO> findItinerary(LocalDate arrival, LocalDate departure, BigDecimal budget, List<String> attribute) {
         List<Hotel> hotels = hotel.getHotelList(budget, arrival, departure, attribute);
         List<RoundTrip> rounds = round.findRoundTrip(arrival, departure, budget, attribute);
         // Group itineraries by city code

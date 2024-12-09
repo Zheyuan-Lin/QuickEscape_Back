@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface ItineraryService {
 
-    List<CityItineraryVO> findItinerary(LocalDate arrival, LocalDate departure, BigDecimal amount, String attribute);
+    List<CityItineraryVO> findItinerary(LocalDate arrival, LocalDate departure, BigDecimal amount, List<String>attribute);
 }

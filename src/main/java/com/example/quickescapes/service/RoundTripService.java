@@ -7,5 +7,5 @@ import java.time.LocalDate;
 import java.util.List;
 
 public interface RoundTripService {
-    List<RoundTrip> findRoundTrip(LocalDate arrival, LocalDate departure, BigDecimal budget, String attribute);
+    List<RoundTrip> findRoundTrip(LocalDate arrival, LocalDate departure, BigDecimal budget, List<String> attribute);
 }

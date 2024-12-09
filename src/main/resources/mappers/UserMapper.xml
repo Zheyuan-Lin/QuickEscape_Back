@@ -6,8 +6,8 @@
 <mapper namespace="com.example.quickescapes.mappers.UserMapper">
     <!-- Query to register a new user -->
     <insert id="registerUser">
-        INSERT INTO users (id, username, password, email)
-        VALUES (#{id}, #{username}, #{password}, #{email});
+        INSERT INTO users (username, password, email)
+        VALUES (#{username}, #{hashedPassword}, #{email});
     </insert>
 
     <!-- Query to find a user by username -->
@@ -18,7 +18,7 @@
         password,
         email
         FROM users
-        WHERE username = #{username};
+        WHERE username = #{name};
     </select>
 
     <!-- Query to add a user with hashed password -->
@@ -38,6 +38,25 @@
         WHERE username = #{username}
         AND password = #{password};
     </select>
+
+    <update id="updatePassword">
+        UPDATE users
+        SET password = #{hashedPassword}
+        WHERE id = #{id};
+    </update>
+
+    <!-- Query to find a user by username -->
+    <select id="findUserByEmail" resultType="com.example.quickescapes.dao.User">
+        SELECT
+            id,
+            username,
+            password,
+            email
+        FROM users
+        WHERE email = #{email};
+    </select>
+
+
 
 </mapper>
 
