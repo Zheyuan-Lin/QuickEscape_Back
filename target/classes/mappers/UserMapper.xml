@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.quickescapes.mappers.UserMapper">
+    <!-- Query to register a new user -->
+    <insert id="registerUser">
+        INSERT INTO users (username, password, email)
+        VALUES (#{username}, #{hashedPassword}, #{email});
+    </insert>
+
+    <!-- Query to find a user by username -->
+    <select id="findUserByUsername" resultType="com.example.quickescapes.dao.User">
+        SELECT
+        id,
+        username,
+        password,
+        email
+        FROM users
+        WHERE username = #{name};
+    </select>
+
+    <!-- Query to add a user with hashed password -->
+    <insert id="add">
+        INSERT INTO users (username, password)
+        VALUES (#{username}, #{hashedPassword});
+    </insert>
+
+    <!-- Query to authenticate a user by username and password -->
+    <select id="authenticateUser" resultType="com.example.quickescapes.dao.User">
+        SELECT
+        id,
+        username,
+        password,
+        email
+        FROM users
+        WHERE username = #{username}
+        AND password = #{password};
+    </select>
+
+    <update id="updatePassword">
+        UPDATE users
+        SET password = #{hashedPassword}
+        WHERE id = #{id};
+    </update>
+
+    <!-- Query to find a user by username -->
+    <select id="findUserByEmail" resultType="com.example.quickescapes.dao.User">
+        SELECT
+            id,
+            username,
+            password,
+            email
+        FROM users
+        WHERE email = #{email};
+    </select>
+
+
+
+</mapper>
+
+

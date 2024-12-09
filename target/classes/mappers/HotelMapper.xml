@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.quickescapes.mappers.HotelMapper">
+
+    <select id="getHotelList" resultType="com.example.quickescapes.dao.Hotel">
+        SELECT
+        out_airport.city_nm AS destination,
+        h.hotel_nm AS hotel_name,
+        MIN(h.ci_date::TIMESTAMP) AS final_check_in_date, -- Earliest check-in date
+        MAX(h.co_date::TIMESTAMP) AS final_check_out_date, -- Latest check-out date
+        SUM(h.price) AS total_price, -- Total price of stay
+        h.photo_url,
+        out_airport.attributes AS attributes
+        FROM
+        hotels h
+        JOIN
+        airports AS out_airport ON out_airport.city_cd = h.city_cd
+
+        WHERE
+        h.ci_date &gt;= #{checkIn} -- Filter for check-in date
+        AND h.co_date &lt;= #{checkOut} -- Filter for check-out date
+        AND (
+            <foreach item="attribute" collection="attribute" separator="AND">
+                out_airport.attributes LIKE CONCAT('%', #{attribute}, '%')
+            </foreach>
+        )
+        GROUP BY
+        h.hotel_nm, out_airport.city_nm, h.photo_url, out_airport.attributes
+        HAVING
+        SUM(h.price) &lt;= #{budget}; -- Filter for total price after aggregation
+    </select>
+
+</mapper>
