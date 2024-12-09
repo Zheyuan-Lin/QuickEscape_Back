@@ -1,10 +1,10 @@
-# Data Extraction Module for QuickEscape
+# Data Extractor
 
 ## About
 
 This module is created to extract, process, and organize city, flight, and accommodation data from various sources such as `Booking.com` and `ITA Matrix` to provide the user with the best travel options.
 
-Automated data extraction is performed using `requests`, `Selenium`, and `BeautifulSoup` to scrape data from the web. The extracted data is then processed and stored in a `postgresql` database for further use.
+Automated data extraction is performed using `requests` and `Selenium` to scrape data from the web. The extracted data is then processed and stored in a `postgresql` database for further use.
 
 **Author**: Yichi "Jeremy" Zhang
 
@@ -22,7 +22,6 @@ Automated data extraction is performed using `requests`, `Selenium`, and `Beauti
 4. `X11` and `Xvfb` (if running on a headless server)
 5. `cron` or `systemd` services for scheduling
 6. `postgresql` database
-7. Internet Connection
 
 ### Installation
 
@@ -183,7 +182,3 @@ Once the data is scraped, it is cleaned and uploaded to the `postgresql` databas
    - Currently, we only cache for trips from ATL to North American major cities due to limited computational resources
 3. Add support for more accommodation providers
    - Currently, we only cache for `Booking.com`
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
