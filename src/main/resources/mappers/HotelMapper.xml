@@ -12,8 +12,7 @@
         MIN(h.ci_date::TIMESTAMP) AS final_check_in_date, -- Earliest check-in date
         MAX(h.co_date::TIMESTAMP) AS final_check_out_date, -- Latest check-out date
         SUM(h.price) AS total_price, -- Total price of stay
-        h.photo_url,
-        out_airport.attributes AS attributes
+        h.photo_url
         FROM
         hotels h
         JOIN

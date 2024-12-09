@@ -20,6 +20,6 @@ public class Hotel {
 //    private double latitude;
 //    private BigDecimal reviewScore;
 //    private int reviewCount;
-    private String attributes;
+ //   private String attributes;
 
 }

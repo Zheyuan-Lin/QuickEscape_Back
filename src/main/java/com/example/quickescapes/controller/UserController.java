@@ -56,6 +56,7 @@ public class UserController {
             claims.put("username", loginUser.getUsername());
             // generate the token
             String token = JwtUtil.genToken(claims);
+            System.out.println(token);
             return ResponseEntity.success(token);
         }
 

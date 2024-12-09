@@ -21,11 +21,11 @@ public class HotelController {
     HotelsService service;
 
     @RequestMapping("/find")
-    public ResponseEntity<List<Hotel>> findRoundTrip(@RequestParam LocalDate checkin,
+    public ResponseEntity<List<Hotel>> findHotel(@RequestParam LocalDate checkin,
                                                @RequestParam LocalDate checkout,
                                                      @RequestParam BigDecimal budget,
-                                                     @RequestParam List<String> attribute) {
-        List<Hotel> results =  service.searchHotels(budget, checkin, checkout, attribute);
+                                                     @RequestParam List<String> attributes) {
+        List<Hotel> results =  service.searchHotels(budget, checkin, checkout, attributes);
         if (results.isEmpty()) {
             ErrorCode error = new ErrorCode(100,"No hotel");
             return ResponseEntity.error(error);

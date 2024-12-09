@@ -28,7 +28,7 @@ public class ItineraryController {
                                                                    @RequestParam LocalDate departure,
                                                                    @RequestParam BigDecimal budget,
                                                                    @RequestParam List<String> attributes) {
-
+            System.out.println("search request");
             List<CityItineraryVO> results =  service.findItinerary(arrival, departure, budget, attributes);
             if (results.isEmpty()) {
                 ErrorCode error = new ErrorCode(100,"No Itinerary");

@@ -13,14 +13,13 @@
         out_trip.price AS outbound_price,
         STRING_AGG(DISTINCT CONCAT(out_segment.airline_cd, '', out_segment.flight_nb), ', ') AS outbound_flight_numbers,
         out_segment.cabin AS outbound_cabin,
-        out_segment.arrival_dt::TIMESTAMP AS outbound_arrival_date,
+       /* out_segment.arrival_dt::TIMESTAMP AS outbound_arrival_date,*/
         return_trip.trip_departure_dt::TIMESTAMP AS return_departure_date,
         return_trip.price AS return_price,
         (out_trip.price + return_trip.price) AS total_price,
         STRING_AGG(DISTINCT CONCAT(return_segment.airline_cd, '', return_segment.flight_nb), ', ') AS return_flight_numbers,
-        return_segment.cabin AS return_cabin,
-        return_segment.arrival_dt::TIMESTAMP AS return_arrival_date,
-        out_airport.attributes AS attributes
+        return_segment.cabin AS return_cabin
+        /*return_segment.arrival_dt::TIMESTAMP AS return_arrival_date*/
 
         FROM
         (SELECT * from trips
